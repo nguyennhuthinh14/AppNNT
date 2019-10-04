@@ -1,0 +1,10 @@
+﻿<Window x:Class="AppNNT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btnTalk" Content="Talk" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="213,203,0,0" Click="btnTalk_Click" RenderTransformOrigin="0.627,0.05"/>
+        <ListBox x:Name="lst" HorizontalAlignment="Left" Height="158" VerticalAlignment="Top" Width="430" Margin="41,21,0,0"/>
+
+    </Grid>
+</Window>
